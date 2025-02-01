@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Viewer</title>
+    <style>
+        :root {
+            --background-color: white;
+            --text-color: black;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --background-color: #121212;
+                --text-color: white;
+            }
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        li + li {
+            margin-top: 5px;
+        }
+
+        li strong {
+            display: block;
+            margin-top: 20px;
+        }
+
+        a {
+            color: var(--text-color);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>3D Viewer</h1>
+    <p>Click on a product to view it in 3D:</p>
+    <ul>
+        <li>
+            <strong>Accessories for Sonos</strong>
+            <ul>
+                <li><a href="https://example.com/product1" target="_blank">Sub Protector</a></li>
+                <li><a href="https://example.com/product2" target="_blank">Sub Mini Protector</a></li>
+                <li><a href="https://collaborate.shapr3d.com/v/cHzORWoz55nkWCld5modP" target="_blank">Sub Protector v2</a></li>
+                <li><a href="https://example.com/product2" target="_blank">Sub Mini Protector v2</a></li>
+                <li><a href="https://example.com/product1" target="_blank">Arc Riser Stand</a></li>
+                <li><a href="https://example.com/product2" target="_blank">Ray Riser Stand</a></li>
+            </ul>
+        </li>
+        <li>
+            <strong>DIN-rail mounts</strong>
+            <ul>
+                <li><a href="https://collaborate.shapr3d.com/v/G_Kl0gpkRCADKfWq3hddk" target="_blank">Shelly Plus & Gen3 series (Add-On compatible)</a></li>
+                <li><a href="https://collaborate.shapr3d.com/v/tyF6_LwkVDOm-YufMz8D_" target="_blank">Shelly Dimmer 0/1-10V PM Gen3 (Add-On compatible)</a></li>
+                <li><a href="https://collaborate.shapr3d.com/v/92ogecqvs_G7uvQb4F2Kt" target="_blank">Shelly Plus RGBW PM (Add-On compatible)</a></li>
+                <li><a href="https://" target="_blank">Shelly Dimmer Gen3</a></li>
+                <li><a href="https://example.com/product4" target="_blank">Shelly Wave series</a></li>
+                <li><a href="https://example.com/product4" target="_blank">Shelly Mini series</a></li>
+                <li><a href="https://example.com/product4" target="_blank">Shelly Wave Mini series</a></li>
+                <li><a href="https://example.com/product4" target="_blank">Shelly RC Snubber</a></li>
+                <li><a href="https://collaborate.shapr3d.com/v/5XYNpoPCeSYpTHrZcHLo_" target="_blank">Shelly 1 & 1PM</a></li>
+                <li><a href="https://collaborate.shapr3d.com/v/fIniagNlnqUycH_eozKAc" target="_blank">Shelly Dimmer2, 1L & RGBW2</a></li>
+                <li><a href="https://collaborate.shapr3d.com/v/QzeDdrb7epW6g4DxP2UW8" target="_blank">Shelly 2.5 & EM</a></li>
+                <li><a href="https://example.com/product4" target="_blank">Plejd series</a></li>
+                <li><a href="https://example.com/product4" target="_blank">Nexa AN-179 & AN-196</a></li>
+                <li><a href="https://collaborate.shapr3d.com/v/NalyKNBeDLHMJgpPRO1wt" target="_blank">Shelly Plus Add-On (discontinued/replaced)</a></li>
+            </ul>
+        </li>
+        <!-- Add more categories and products as needed -->
+    </ul>
+</body>
+</html>
